@@ -1,10 +1,12 @@
 meaning = 42
-print('')
+print("meaning")
+
+meaning = 9
 
 # if meaning > 10:
-#     print('Right on!')
+#     print("meaning is greater than 10")
 # else:
-#     print('Not today')
+#     print("meaning is less than 10")
 
-# Ternary Operator
-print('Right on!') if meaning > 10 else print('Not today')
+# Ternary operator
+print("Right on!") if meaning > 10 else print("Nope!")

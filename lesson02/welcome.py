@@ -1,12 +1,14 @@
-line01 = "********************"  # header / footer
-line02 = "*                  *"  # re-use
+line01 = "********************"
+line02 = "*                  *"
 line03 = "*     WELCOME!     *"
 
 
 # starts with a blank line
-print('')
+print("")
 print(line01)
 print(line02)
 print(line03)
 print(line02)
 print(line01)
+
+test = "test"

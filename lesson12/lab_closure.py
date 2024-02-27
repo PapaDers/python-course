@@ -17,6 +17,7 @@ def parent_function(person, coins=3):
 
     # return the function 'play_game()' to the variable 'tommy' and 'jenny'
     # this is called a closure because the function 'play_game()' has access to the scope of its parent function 'parent_function()' and the variables inside it like 'coins'.
+    # this allows the tracking of values only needed by the function 'play_game()' limited to the scope of 'parent_function()' rather than cluttering the global scope.
     return play_game
 
 
